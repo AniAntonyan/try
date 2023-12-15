@@ -13,15 +13,6 @@ const sizeButtons = document.querySelectorAll('.info .sizes button');
 
 
 
-for(let i=0; i<sizeButtons.length; i++){
-    sizeButtons[i].addEventListener('click', function(){
-        console.log('click');
-        document.querySelector('.size button.active').classList.remove('active');
-        sizeButtons[i].classList.add('active');
-    });
-}
-
-
 //(2)Moving Animation Event
 container.addEventListener('mousemove', (e) => {
 
